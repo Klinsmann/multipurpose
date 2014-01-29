@@ -1,0 +1,28 @@
+@charset "utf-8";
+header {
+	width: 600px;
+	height: 600px;
+	background-size: 200px 200px;
+	background-repeat: no-repeat;
+	background-image: url(../images/pic_2.jpg), -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(99,136,255,1.00)),color-stop( 100% , rgba(0,60,255,1.00)));
+	background-image: url(../images/pic_2.jpg), -webkit-linear-gradient(270deg,rgba(99,136,255,1.00) 0%,rgba(0,60,255,1.00) 100%);
+	background-image: url(../images/pic_2.jpg), linear-gradient(180deg,rgba(99,136,255,1.00) 0%,rgba(0,60,255,1.00) 100%);
+}
+
+@media (min-width:1024px){
+
+
+
+}
+
+@media (min-width:600px){
+header {
+	width: 600px;
+	height: 600px;
+}
+
+
+}
+
+@media (max-width:600px){
+}
